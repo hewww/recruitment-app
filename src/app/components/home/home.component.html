@@ -42,9 +42,9 @@
           </g>
         </g>
       </svg>
-  
+
       <span>{{ title }} app is running!</span>
-  
+
       <svg
         id="rocket-smoke"
         xmlns="http://www.w3.org/2000/svg"
@@ -62,11 +62,11 @@
         />
       </svg>
     </div>
-  
+
     <!-- Resources -->
     <h2>Resources</h2>
     <p>Here are some links to help you get started:</p>
-  
+
     <div class="card-container">
       <a
         class="card"
@@ -96,7 +96,7 @@
           <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
         </svg>
       </a>
-  
+
       <a
         class="card"
         target="_blank"
@@ -125,7 +125,7 @@
           <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
         </svg>
       </a>
-  
+
       <a
         class="card"
         target="_blank"
@@ -154,7 +154,7 @@
           <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
         </svg>
       </a>
-  
+
       <a
         class="card"
         target="_blank"
@@ -194,13 +194,13 @@
         </svg>
       </a>
     </div>
-  
+
     <!-- Next Steps -->
     <h2>Next Steps</h2>
     <p>What do you want to do next with your app?</p>
-  
+
     <input type="hidden" #selection />
-  
+
     <div class="card-container">
       <button
         class="card card-small"
@@ -218,7 +218,7 @@
         </svg>
         <span>New Component</span>
       </button>
-  
+
       <button
         class="card card-small"
         (click)="selection.value = 'material'"
@@ -235,7 +235,7 @@
         </svg>
         <span>Angular Material</span>
       </button>
-  
+
       <button
         class="card card-small"
         (click)="selection.value = 'pwa'"
@@ -252,7 +252,7 @@
         </svg>
         <span>Add PWA Support</span>
       </button>
-  
+
       <button
         class="card card-small"
         (click)="selection.value = 'dependency'"
@@ -269,7 +269,7 @@
         </svg>
         <span>Add Dependency</span>
       </button>
-  
+
       <button
         class="card card-small"
         (click)="selection.value = 'test'"
@@ -286,7 +286,7 @@
         </svg>
         <span>Run and Watch Tests</span>
       </button>
-  
+
       <button
         class="card card-small"
         (click)="selection.value = 'build'"
@@ -304,7 +304,7 @@
         <span>Build for Production</span>
       </button>
     </div>
-  
+
     <!-- Terminal -->
     <div class="terminal" [ngSwitch]="selection.value">
       <pre *ngSwitchDefault>ng generate component xyz</pre>
@@ -314,7 +314,7 @@
       <pre *ngSwitchCase="'test'">ng test</pre>
       <pre *ngSwitchCase="'build'">ng build</pre>
     </div>
-  
+
     <!-- Links -->
     <div class="card-container">
       <a
@@ -369,7 +369,7 @@
           />
         </svg>
       </a>
-  
+
       <a
         class="circle-link"
         title="CLI"
@@ -424,7 +424,7 @@
           </g>
         </svg>
       </a>
-  
+
       <a
         class="circle-link"
         title="Find a Local Meetup"
@@ -447,7 +447,7 @@
           />
         </svg>
       </a>
-  
+
       <a
         class="circle-link"
         title="Join the Conversation on Discord"
@@ -471,7 +471,7 @@
         </svg>
       </a>
     </div>
-  
+
     <!-- Footer -->
     <footer>
       Love Angular?&nbsp;
@@ -509,7 +509,7 @@
         </svg>
       </a>
     </footer>
-  
+
     <svg
       id="clouds"
       xmlns="http://www.w3.org/2000/svg"
